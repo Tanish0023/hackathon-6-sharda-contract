@@ -34,8 +34,8 @@ contract SmartGrid {
     }
 
     function purchaseEnergy(address seller, uint256 kWh) external payable {
-        require(isSeller[seller], "Seller is not registered");
-        require(energyBalance[seller] >= kWh, "Seller does not have enough energy");
+        // require(isSeller[seller], "Seller is not registered");
+        // require(energyBalance[seller] >= kWh, "Seller does not have enough energy");
 
         uint256 cost = kWh * energyPricePerKWh;
         require(msg.value >= cost, "Insufficient funds sent");
