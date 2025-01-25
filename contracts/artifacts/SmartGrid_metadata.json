@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SmartGrid.sol": "SmartGrid"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SmartGrid.sol": {
+			"keccak256": "0x934aab78b55aca83222dd13c5de641d95b6505b34acef0bf57ad3274d79b0d83",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1ff91607da172ae63b0085e4daf24debc37c456d8d9667616fc11da76a84b912",
+				"dweb:/ipfs/QmPXg8crLp4Dxu3As9HJWVMGEBmNtbJCYygyDrBEKsSREJ"
+			]
+		}
+	},
+	"version": 1
+}
